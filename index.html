@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>trivia</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="preguntas.html" class="activo">Comencémos</a>
+      <a href="index.html">regresar</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="p0">
+      <h3>1- ¿Cuál es la Capital de Brasil?</h3>
+
+      <label>
+        <input type="radio" value="1" name="p0" data-posicion="0">
+        <span>Sao Paulo</span>
+      </label>
+      <label>
+        <input type="radio" value="2" name="p0" data-posicion="0">
+        <span>Rio de Janeiro</span>
+      </label>
+      <label>
+        <input type="radio" value="3" name="p0" data-posicion="0">
+        <span>Brasilia</span>
+      </label>
+
+    </section>
+
+    <section id="p1">
+      <h3>2- ¿Cuál es la Capital de China?</h3>
+      <label>
+        <input type="radio" value="1" name="p1" data-posicion="1">
+        <span>Pekín</span>
+      </label>
+      <label>
+        <input type="radio" value="2" name="p1" data-posicion="1">
+        <span>Shanghái</span>
+      </label>
+      <label>
+        <input type="radio" value="3" name="p1" data-posicion="1">
+        <span>Shenzhen</span>
+      </label>
+    </section>
+
+    <section id="p2">
+      <h3>3- ¿Cuál es la Capital de Alemania?</h3>
+      <label>
+        <input type="radio" value="1" name="p2" data-posicion="2">
+        <span>Hamburgo</span>
+      </label>
+      <label>
+        <input type="radio" value="2" name="p2" data-posicion="2">
+        <span>Munich</span>
+      </label>
+      <label>
+        <input type="radio" value="3" name="p2" data-posicion="2">
+        <span>Berlín</span>
+      </label>
+
+    </section>
+
+    <section id="p3">
+      <h3>4- ¿Cuál es la Capital de Estados Unidos?</h3>
+      <label>
+        <input type="radio" value="1" name="p3" data-posicion="3">
+        <span>Washington</span>
+      </label>
+      <label>
+        <input type="radio" value="2" name="p3" data-posicion="3">
+        <span>Chicago</span>
+      </label>
+      <label>
+        <input type="radio" value="3" name="p3" data-posicion="3">
+        <span>New York</span>
+      </label>
+
+    </section>
+
+    <section id="p4">
+      <h3>5- ¿Cuál es la Capital de España?</h3>
+      <label>
+        <input type="radio" value="1" name="p4" data-posicion="4">
+        <span>Barcelona</span>
+      </label>
+      <label>
+        <input type="radio" value="2" name="p4" data-posicion="4">
+        <span>Madrid</span>
+      </label>
+      <label>
+        <input type="radio" value="3" name="p4" data-posicion="4">
+        <span>Valencia</span>
+      </label>
+    </section>
+  </div>
+
+  <hr>
+
+  <div>
+    <button id="btn-corregir">Corregir</button>
+    <h2>cantidad acertadas: <span id="resultados"></span></h2>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

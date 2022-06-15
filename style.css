@@ -1,0 +1,29 @@
+label {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    position: relative;
+}
+
+input:checked + span {
+    background-color: blue;
+}
+
+label span {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    margin-left: 5px;
+
+    background-color: red;
+    color: white;
+    /* La pueden eliminar más adelante si lo desean */
+    transition: 300ms ease;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid;
+    margin: 20px auto;
+}
