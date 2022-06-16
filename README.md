@@ -1,5 +1,11 @@
 # Explicación del código fuente
 
+## Índice de contenido
+
+- [Scripts](docs/Scripts.md "Explicación del código JavaScript")
+
+## Desestructuración de un objeto
+
 Ejemplo de desestructuración de un objeto:
 
 ```js
@@ -78,3 +84,4 @@ Donde:
     Donde `name="viewport` es el contenido visible de nuestro documento web y `content="width=device-width, initial-scale=1.0"` hace coincidir nuestro documento con la anchura del dispositivo (`width=device-width`) a la vez que mantiene una escala inicial igual al dispositivo móvil (`initial-scale=1.0`).
 
 [codificacion]:https://es.wikipedia.org/wiki/Codificaci%C3%B3n_de_caracteres "Fuente: Wikipedia"
+
