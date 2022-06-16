@@ -70,8 +70,6 @@ const reset = document.querySelector("#reset");
 const radios = document.querySelectorAll("[type='radio']");
 
 
-console.log({ radios });
-
 if (reset) reset.onclick = () => {
   radios.forEach(radio => {
     radio.checked = false;
