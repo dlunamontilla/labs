@@ -27,3 +27,24 @@ hr {
     border-bottom: 1px solid;
     margin: 20px auto;
 }
+
+main {
+    margin: 0 auto;
+    padding: 20px;
+    
+    max-width: 1200px;
+    background-color: #f0f0f0;
+}
+
+nav {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li a {
+    padding: 0 10px;
+}
