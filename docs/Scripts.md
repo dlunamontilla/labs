@@ -140,3 +140,7 @@ Y finalmente, lo retornamos:
 ...
 return acertadas;
 ```
+
+## Lo que sigue será un vídeo explicativo
+
+Próximamente, dejaré un vídeo explicando el código. Haré un videocapture con una explicación sencilla para entender el código que se encuentra [en este repositorio](https://github.com/dlunamontilla/labs/blob/master/script.js "Ir al código fuente").
