@@ -65,15 +65,3 @@ if (boton) {
     }
   }
 }
-
-// const object = {
-//   name: "David E",
-//   lastname: "Luna M",
-//   age: 37
-// };
-
-// const name = object.name;
-// const lastname = object.lastname;
-// const age = object.age;
-
-// const { name, lastname, age } = object;
