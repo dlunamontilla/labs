@@ -94,3 +94,49 @@ respuestasElegidas.splice(posicion, 1, value);
 
 Donde `splice` es un método de _array_ (`Array.prototype.splice`) que nos permite eliminar, agregar o reemplazar elementos dentro de `respuestasElegidas`, siendo el primer argumento la posición elegida para el _Array_ y segundo argumento, el número de elementos a eliminar o reemplazar (en este caso, reemplazar) y `value` el valor que sustituiremos por cero (`0`) que es su valor por defecto.
 
+## ¿Cómo corregir las respuestas del usuario?
+
+Si desea que su aplicación devuelva un número de respuestas acertadas o correctas debe utilizar las siguientes líneas que serán explicadas:
+
+```js
+function corregir(a, b) {
+    let acertadas = 0;
+
+    a.forEach((respuesta, posicion) => {
+        if (respuesta === b[posicion]) {
+            ++acertadas;
+        }
+    });
+
+    return acertadas;
+}
+```
+
+Donde el primer parámetro `a` es el _array_ con las respuestas que elegimos como correctas y `b` las respuestas seleccionadas por el usuario.
+
+La línea:
+
+```js
+let acertadas = 0;
+```
+
+Será el número de respuestas correctas elegidas por el usuario, que se obtendrá mediante las coincidencias de las respuestas elegidas por el usuario con las respuestas correctas.
+
+Lo anteriormente descrito se obtiene mediante la iteración de los elementos del _array_.
+
+Para ello, iteramos el _array_ de respuestas correctas `a` y las comparamos con `b` de acuerdo a su posición:
+
+```js
+a.forEach((respuesta, posicion) => {
+    if (respuesta === b[posicion]) {
+        ++acertadas
+    }
+});
+```
+
+Y finalmente, lo retornamos:
+
+```js
+...
+return acertadas;
+```
