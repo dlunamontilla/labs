@@ -76,7 +76,8 @@ if (reset) reset.onclick = () => {
   });
 
   resultados.textContent = 0;
-  opcion_elegida.splice(0, 5, 0, 0, 0, 0, 0);
+  opcion_elegida.length = 0;
+  opcion_elegida.push(0, 0, 0, 0, 0);
 
   console.log({ opcion_elegida });
 }
