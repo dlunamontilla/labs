@@ -65,3 +65,12 @@ if (boton) {
     }
   }
 }
+
+const reset = document.querySelectar("#reset");
+const radios = document.querySelectorAll("[type='radio']");
+
+if (reset) reset.onclick = () => {
+  radios.forEach(radio => {
+    radio.checked = false;
+  });
+}
