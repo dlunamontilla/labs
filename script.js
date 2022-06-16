@@ -74,4 +74,9 @@ if (reset) reset.onclick = () => {
   radios.forEach(radio => {
     radio.checked = false;
   });
+
+  resultados.textContent = 0;
+  opcion_elegida.splice(0, 5, 0, 0, 0, 0, 0);
+
+  console.log({ opcion_elegida });
 }
