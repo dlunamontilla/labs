@@ -6,7 +6,8 @@ label {
 }
 
 input:checked + span {
-    background-color: blue;
+    background-color: brown;
+    border-radius: 5px;
 }
 
 label span {

@@ -67,17 +67,21 @@ if (boton) {
 }
 
 const reset = document.querySelector("#reset");
-const radios = document.querySelectorAll("[type='radio']");
 
+function deseleccionarRespuestas() {
+  const radios = document.querySelectorAll("[type='radio']");
 
-if (reset) reset.onclick = () => {
   radios.forEach(radio => {
     radio.checked = false;
   });
+}
+
+deseleccionarRespuestas();
+
+if (reset) reset.onclick = () => {
+  deseleccionarRespuestas();
 
   resultados.textContent = 0;
   opcion_elegida.length = 0;
   opcion_elegida.push(0, 0, 0, 0, 0);
-
-  console.log({ opcion_elegida });
 }
